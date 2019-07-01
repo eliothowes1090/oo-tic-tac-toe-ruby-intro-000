@@ -93,4 +93,14 @@ class TicTacToe
     draw? || won?
   end
 
+  def winner
+    if won? && current_player == "X"
+      return "X"
+    elsif won? && current_player == "O"
+      return "O"
+    else
+      nil
+    end
+  end
+
 end
