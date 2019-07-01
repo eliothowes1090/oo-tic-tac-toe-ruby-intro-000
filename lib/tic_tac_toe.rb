@@ -77,12 +77,12 @@ class TicTacToe
       if winning_positions.all? {|game_square| @board[game_square] == "X"} || winning_positions.all? {|game_square| @board[game_square] == "O"}
         return winning_positions
       end
-    end 
+    end
      false
   end
 
   def full
-    
+
   end
 
 end
