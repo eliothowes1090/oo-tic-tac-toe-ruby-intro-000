@@ -107,7 +107,7 @@ class TicTacToe
     until over? do
       turn
       if won?
-        winner
+        return winner
       elsif draw?
         puts "Cat's Game!"
       end
