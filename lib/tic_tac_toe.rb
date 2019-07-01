@@ -85,4 +85,8 @@ class TicTacToe
     @board.all? {|game_square| game_square != " "}
   end
 
+  def draw?
+    full? && !won?
+  end
+
 end
