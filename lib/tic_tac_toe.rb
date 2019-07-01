@@ -116,7 +116,7 @@ class TicTacToe
     end
   end
 
-  
+
   # def play(board)
   #   while !over?(board)
   #     turn(board)
@@ -128,8 +128,8 @@ class TicTacToe
   #   elsif draw?(board)
   #     return puts "Cat's Game!"
   #   end
-  
-  
-  
+
+
+
 
 end
