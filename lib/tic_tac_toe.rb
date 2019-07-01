@@ -1,4 +1,4 @@
-require 'pryx'
+require 'pry'
 
 class TicTacToe
 
