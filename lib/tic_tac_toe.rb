@@ -72,7 +72,7 @@ class TicTacToe
   end
 
   def won?
-     @board.each do |key, value|
+     WIN_COMBINATIONS.each do |key, value|
 binding.pry
      end
   end
