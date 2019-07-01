@@ -4,3 +4,4 @@ require_relative '../lib/tic_tac_toe.rb'
 
 first_game = TicTacToe.new
 first_game.intialize
+play
