@@ -105,7 +105,8 @@ class TicTacToe
 
   def play
     until over? do
-      puts "Please place your counter"
+      turn
+      
     end
   end
 
