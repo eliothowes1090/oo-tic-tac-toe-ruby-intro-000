@@ -82,7 +82,7 @@ class TicTacToe
   end
 
   def full?
-    board.all? {|game_square| game_square != " "}
+    @board.all? {|game_square| game_square != " "}
   end
 
 end
