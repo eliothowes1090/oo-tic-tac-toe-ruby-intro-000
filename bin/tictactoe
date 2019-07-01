@@ -5,4 +5,4 @@ require_relative '../lib/tic_tac_toe.rb'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 first_game = TicTacToe.new(board)
-firt_game.play
+first_game.play
