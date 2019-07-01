@@ -75,7 +75,7 @@ class TicTacToe
 
      WIN_COMBINATIONS.each do |array|
         if array[0] && array[1] && array[2] == "X" || array[0] && array[0] && array[0] == "0"
-         return array.to_a
+         return array
         end
      end
      false
