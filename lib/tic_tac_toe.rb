@@ -106,6 +106,11 @@ class TicTacToe
   def play
     until over? do
       turn
+      if won?
+        winner
+      elsif draw?
+        puts "Cat's Game!"
+      end
 
     end
   end
