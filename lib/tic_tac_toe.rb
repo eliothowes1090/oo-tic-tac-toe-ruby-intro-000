@@ -74,6 +74,7 @@ class TicTacToe
   def won?
 
      WIN_COMBINATIONS.each do |array|
+       binding.pry
         if array[0] && array[1] && array[2] == "X" || array[0] && array[0] && array[0] == "0"
          return array
         end
