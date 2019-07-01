@@ -106,6 +106,7 @@ class TicTacToe
   def play
     until over? do
       turn
+    end
       if winner == "X"
         return puts "Congratulations X!"
       elsif winner == "O"
