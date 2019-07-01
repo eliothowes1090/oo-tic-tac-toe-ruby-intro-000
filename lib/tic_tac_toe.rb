@@ -109,10 +109,10 @@ class TicTacToe
       if won? && winner == "X"
         puts "Congratulations X!"
       elsif won? && winner == "O"
-        return "Congratulations O!"
+        puts "Congratulations O!"
       end
       if draw?
-        return "Cat's Game!"
+        puts "Cat's Game!"
       end
     end
   end
