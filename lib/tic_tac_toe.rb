@@ -107,7 +107,7 @@ class TicTacToe
     until over? do
       turn
       if won? && winner == "X"
-        return "Congratulations X!"
+        puts "Congratulations X!"
       elsif won? && winner == "O"
         return "Congratulations O!"
       end
